@@ -12,7 +12,7 @@
         <h2>THE CODE REVIEW</h2>
     </header>
     <div class="container">
-        <form>
+        <form class="form1">
             <fieldset>
                <legend>Signup for our newsletter.</legend>
                <p class="info">Get the latest news on how your code is doing right in your inbox</p>
@@ -30,11 +30,11 @@
                <input type="text" id="city" name="user-city">
                <label for="province">Provinces/Territorys</label>
                <select id="province">
-                    <option value="" disabled selected hidden>Choose your Province/Territory</option>
+                    <option value="place" disabled selected hidden>Choose your Province/Territory</option>
                     <optgroup label="Provinces">
-                        <option value="British Colombia">British colombia</option>
-                        <option value="Alberta">alberta</option>
-                        <option value="saskatchewan">saskatchewan</option>
+                        <option value="British Columbia">British columbia</option>
+                        <option value="Alberta">Alberta</option>
+                        <option value="Saskatchewan">Saskatchewan</option>
                         <option value="Manitoba">Manitoba</option>
                         <option value="Ontario">Ontario</option>
                         <option value="Quebec">Quebec</option>
@@ -49,9 +49,14 @@
                         <option value="Nunavut">Nunavut</option>
                     </optgroup>    
                </select>
+               <label for="postal">Postal Code</label>
+               <input type="text" id="postal" name="user-postal">
+               <hr>
+            </fieldset>
+            <fieldset class="form2">
+                <h2>Newsletter</h2>
+                <p class="info">Select the newsletters you want to receive</p>
 
-
-               </select>
             </fieldset>
         </form>
     </div>

@@ -20,6 +20,10 @@
 form h2{
     font-size: 1.6rem;
 }
+p:last-child{
+    font-size: 1.5rem;
+    border: none;
+}
 legend{
     text-align: center;
     font-size: 1.8em;
@@ -30,11 +34,15 @@ hr{
     border-top: 1px black solid;
     width: 100%;
 }
+hr:last-child{
+    border-top: 2px black solid;
+}
 
 fieldset{
     width: 100%;
     margin: 0 auto;
     border: none;
+    
 }
 label{
     font-size: 1.3rem;
@@ -63,6 +71,16 @@ input::placeholder{
     font-size: .9rem;
 }
 
+input[id="postal"]{
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+
+option[value="place"]{
+    opacity: 80%;
+}
+
 
 .container{
     width: 100%;
@@ -77,4 +95,7 @@ input::placeholder{
     opacity: 90%;
     border-bottom: 3px solid black ;
     padding-bottom: 1.8em;
+}
+.form2 h2{
+    margin-top:10px ;
 }
