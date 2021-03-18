@@ -25,11 +25,14 @@ form h2{
 
 legend{
     font-size: 1.8em;
-    margin-bottom: 5px ;
+    margin-bottom: 1.5em;
     font-weight: bold;
     width: 100%;
     background:ghostwhite;
     font-family: 'Cormorant Unicase', serif;
+}
+.first-hr{
+    margin-bottom: 2em;
 }
 .header1{
     text-align: center;
@@ -59,7 +62,7 @@ label{
 }
 input,select,textarea{
     display: block;
-    width: 100%;
+    width: 97%;
     margin: 10px 0;
     font-size: 1.2rem;
     padding: 1rem;
@@ -169,12 +172,19 @@ footer p{
     label{
         width: 25%;
     }
+    label[for="province"]{
+        font-size: 1.1em;
+    }
+    label[for="postal"]{
+        font-size: 1.2em;
+    }
     input{
         width :70%;
     }
     select{
         width: 60%;
         margin-left: 3em;
+        font-size: 1em;
     }
     input[id="postal"]{
         width: 25%;
