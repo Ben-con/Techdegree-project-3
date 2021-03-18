@@ -26,6 +26,8 @@ legend{
     font-size: 1.8em;
     margin-bottom: 5px ;
     font-weight: bold;
+    width: 100%;
+    background:ghostwhite;
 }
 hr{
     border-top: 1px black solid;
@@ -39,6 +41,7 @@ fieldset{
     width: 100%;
     margin: 0 auto;
     border: none;
+    background: ghostwhite;
     
 }
 label{
@@ -56,17 +59,24 @@ input,select,textarea{
     background: #eff0f1;
     border-radius: 5px;
     border: none;
+    transition: .5s;
     
 }
 input:focus{
     border: darkblue;
     padding: 1rem;
     font-size: 1.5rem;
+    transition: .5s;
 }
 input::placeholder{
     text-align: right;
-    opacity: 80%;
+    opacity: 60%;
     font-size: .9rem;
+}
+textarea::placeholder{
+    text-align: left;
+    opacity: 60%;
+    
 }
 
 input[id="postal"]{
