@@ -76,6 +76,11 @@ input[id="postal"]{
     margin-bottom: 40px;
 }
 
+input[type="checkbox"] + label{
+    display: inline;
+    
+}
+
 
 option[value="place"]{
     opacity: 80%;
