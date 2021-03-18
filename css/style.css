@@ -31,8 +31,9 @@ legend{
     background:ghostwhite;
     font-family: 'Cormorant Unicase', serif;
 }
-.legend1{
+.header1{
     text-align: center;
+    font-family: 'Cormorant Unicase', serif;
 }
 hr{
     border-top: 1px black solid;
@@ -177,6 +178,9 @@ footer p{
     }
     input[id="postal"]{
         width: 25%;
+    }
+    .header1{
+        font-size: 2em;
     }
 
 }
