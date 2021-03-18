@@ -26,7 +26,7 @@
                <input type="tel" id="phone" name="user-phone">
                <label for="address">Street Address</label>
                <input type="text" id="address" name="user-address">
-               <label for="city" City>City</label>
+               <label for="city" >City</label>
                <input type="text" id="city" name="user-city">
                <label for="province">Provinces/Territorys</label>
                <select id="province">
@@ -55,11 +55,21 @@
             </fieldset>
             <fieldset class="form2">
                 <h2>Newsletter</h2>
-                <p class="info">Select the newsletters you want to receive</p>
-                <input type="checkbox" id="hnews" value="html-news"  name="user-hnews" class="check"><label for="hnews" class="check">Html</label>
-
+                <p class="info">Select the newsletters you would like to receive</p>
+                <input type="checkbox" id="hnews" value="html-news"  name="user-hnews" class="check"><label for="hnews" class="check">Html News</label><br>
+                <input type="checkbox" id="cssnews" value="css-news"  name="user-cssnewsx" class="check"><label for="cssnews" class="check">CSS News</label><br>
+                <input type="checkbox" id="javanews" value="java-news" name="user-javanews" class="check"><label for="javanews" class="check">Javascipt News</label>
+                <p class="info space"> Newsletter format</p>
+                <input type="radio" id="html-format" value="html-format" name="user-format" class="check"><label for="html-format" class="check">HTML</label><br>
+                <input type="radio" id="plain-text-format" value="plain-text-format" name="user-format" class="check"><label for="plain-text-format" class="check">Plain Text</label>
+                <p class="info space"> Other topics you'd like to hear about</p>
+                <textarea rows="3"></textarea>
+                <button type="submit">Sign up</button>
             </fieldset>
         </form>
+        <footer>
+            <p><span>Copyright The Code Review</span></p>
+        </footer>
     </div>
     
 </body>
