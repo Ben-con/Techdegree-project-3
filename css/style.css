@@ -24,13 +24,15 @@ form h2{
 }
 
 legend{
-    text-align: center;
     font-size: 1.8em;
     margin-bottom: 5px ;
     font-weight: bold;
     width: 100%;
     background:ghostwhite;
     font-family: 'Cormorant Unicase', serif;
+}
+.legend1{
+    text-align: center;
 }
 hr{
     border-top: 1px black solid;
